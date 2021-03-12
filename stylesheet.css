@@ -1,0 +1,136 @@
+body {
+    
+    margin-top: 0px;
+    background-color: #FFF;
+}
+
+#header {
+    margin-top: 0px;
+}
+
+.navbar {
+    
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    margin-top: -24px;
+    padding-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-right: 2px solid;
+    border-right-color: #BDBDBD;
+    background-color: #F2F2F2;
+}
+
+.nav-link {
+    padding-left: 15px;
+}
+
+.main-doc {
+    width: auto;
+    height: auto;
+    margin-left: 20%;
+    background-color: #FFF;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-top: auto;
+    
+}
+
+#code1 {
+    display: inline-block;
+    width: 850px;
+    height: 70px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #EFEFEF;
+}
+
+#code2 {
+    display: inline-block;
+    width: 850px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-color: #EFEFEF;
+}
+
+#code3 {
+    display: inline-block;
+    width: 850px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-color: #EFEFEF;
+}
+
+#code4 {
+    display: inline-block;
+    width: 850px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-color: #EFEFEF;
+}
+
+#code5 {
+    display: inline-block;
+    width: 850px;
+    height: 75px;
+    margin-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    background-color: #EFEFEF;
+}
+
+#code6 {
+    display: inline-block;
+    width: 850px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    background-color: #EFEFEF;
+}
+
+a:link {
+    color: #B43104;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DF7401;
+}
+
+a:visited {
+    color: #D13A07;
+}
+
+h1, h2 {
+    color: #D35400;
+}
+
+@media (orientation: landscape) {
+  body {
+    flex-direction: row;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    flex-direction: column;
+  }
+}
